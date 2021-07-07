@@ -26,12 +26,12 @@ export class ProductpageComponent implements OnInit {
         navbar.classList.add('bg-danger');
 
         this.dropdownList = [
-                              {"id":1,"itemName":"Black"},
-                              {"id":2,"itemName":"Gray"},
-                              {"id":3,"itemName":"White"}
+                              {"id":1,"itemName":"1"},
+                              {"id":2,"itemName":"2"},
+                              {"id":3,"itemName":"3"}
                             ];
         this.selectedItems = [
-            {"id":1,"itemName":"Black"}
+            {"id":1,"itemName":"numero"}
         ];
         this.dropdownSettings = {
                                   singleSelection: true,
@@ -44,12 +44,12 @@ export class ProductpageComponent implements OnInit {
                                   maxHeight: 100
                                 };
         this.dropdownList1 = [
-                              {"id":1,"itemName":"Small"},
-                              {"id":2,"itemName":"Medium"},
-                              {"id":3,"itemName":"Large"}
+                              {"id":1,"itemName":"150 grs"},
+                              {"id":2,"itemName":"300 grs"},
+                              {"id":3,"itemName":"500 grs"}
                             ];
         this.selectedItems1 = [
-            {"id":1,"itemName":"Small"},
+            {"id":1,"itemName":"gramos"},
         ];
         this.dropdownSettings1 = {
                                   singleSelection: true,
